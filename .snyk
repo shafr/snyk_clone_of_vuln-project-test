@@ -1,0 +1,8 @@
+version: v1.25.0
+language-settings: 
+  java: "17"
+# ignore:
+#   SNYK-JAVA-ORGAPACHECOMMONS-30008:
+#     - '*':
+#         reason: "Don't like it"
+#         expires: 2025-11-07T11:38:28.614Z
