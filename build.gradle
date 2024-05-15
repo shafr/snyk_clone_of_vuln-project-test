@@ -1,5 +1,6 @@
 plugins {
-  id 'java' version '11'
+  id 'java' 
+  
 }
 
 repositories {
