@@ -1,6 +1,4 @@
 version: v1.25.0
-language-settings: 
-  java: "17"
 ignore:
   SNYK-JAVA-ORGAPACHECOMMONS-30008:
     - '*':
