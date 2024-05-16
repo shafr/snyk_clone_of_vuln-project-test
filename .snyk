@@ -1,22 +1,21 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.25.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
-  SNYK-JAVA-COMFASTERXMLJACKSONCORE-1056416:
-    - '*':
-        reason: "Don't like it 1"
-        expires: 2025-11-07T11:38:28.614Z
-        created: 2021-11-29T17:25:19.200Z
-  
+  # SNYK-JAVA-COMFASTERXMLJACKSONCORE-1056416:
+  #   - '*':
+  #       reason: Don't like it 1
+  #       expires: 2025-11-07T11:38:28.614Z
+  #       created: 2021-11-29T17:25:19.200Z
   SNYK-JAVA-COMFASTERXMLJACKSONCORE-1056421:
     - '*':
-        reason: "Don't like it 2"
+        reason: Don't like it 2
         expires: 2025-11-07T11:38:28.614Z
         created: 2023-09-13T13:14:22.120Z
-        
-  'SNYK-JAVA-COMFASTERXMLJACKSONCORE-467015':
+  SNYK-JAVA-COMFASTERXMLJACKSONCORE-467015:
     - '*':
-        reason: "Don't like it 3"
+        reason: No created date
         expires: 2025-11-07T11:38:28.614Z
-        created: 2023-09-13T13:14:22.120Z
 
 patch: {}
 exclude: {}
