@@ -5,8 +5,6 @@ ignore:
   SNYK-JAVA-COMFASTERXMLJACKSONCORE-1056416:
     - '*':
         reason: Issue ignored from the configuration file
-        expires: 2025-11-07T11:38:28.614Z
-        created: 2021-11-29T17:25:19.200Z
 
 patch: {}
 exclude: {}
